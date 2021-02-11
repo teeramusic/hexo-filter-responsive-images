@@ -1,5 +1,8 @@
 # hexo-filter-responsive-images
 
+## THIS VERSION CONVERTS ALL OF YOUR LINKS AND FLIES TO WEBP FORMAT
+
+
 [![build status](https://travis-ci.org/hexojs/hexo-filter-responsive-images.svg?branch=master)](https://travis-ci.org/hexojs/hexo-filter-responsive-images)
 [![npm version](https://badge.fury.io/js/hexo-filter-responsive-images.svg)](https://www.npmjs.com/package/hexo-filter-responsive-images)
 
@@ -133,7 +136,7 @@ responsive_images:
       square:
         width: 200
         height: 200
-        
+
   - pattern: '**/*.+(png|jpg|jpeg)'
     sizes:
       thumb:
@@ -175,7 +178,7 @@ responsive_images:
 
 ## Usage
 
-To get the responsive image URL you can just refer to it's prefixed version. 
+To get the responsive image URL you can just refer to it's prefixed version.
 For a programmatic usage in theme templates, you can use a view helper:
 
 ```javascript
